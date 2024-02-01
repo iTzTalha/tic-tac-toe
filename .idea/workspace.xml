@@ -4,13 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbd298bf-3075-4fd7-ae03-c1aa1f5f053b" name="Changes" comment="Project created">
+    <list default="true" id="dbd298bf-3075-4fd7-ae03-c1aa1f5f053b" name="Changes" comment="workspace.xml modified">
+      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/CellState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/GameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/DuplicateSymbolException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/InvalidPlayerCountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Symbol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +48,9 @@
         <option name="url" value="https://github.com/iTzTalha/tictactoe.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -79,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706775980238</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="workspace.xml modified">
+      <option name="closed" value="true" />
+      <created>1706776496678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706776496678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project created" />
+    <MESSAGE value="workspace.xml modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml modified" />
   </component>
 </project>
