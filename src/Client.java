@@ -32,7 +32,7 @@ public class Client {
         int i = 0;
         Set<Character> set = new HashSet<>();
         List<Player> players = new ArrayList<>();
-        while (i++ < totalPlayers) {
+        while (i < totalPlayers) {
             scanner.nextLine();
             System.out.print("Enter Player " + (i + 1) + " name - ");
             String name = scanner.nextLine();
@@ -43,7 +43,7 @@ public class Client {
                 System.out.print("Enter Player " + (i + 1) + " symbol - ");
                 symbol = scanner.next().charAt(0);
             }
-            players.add(new Player(i, name, new Symbol(symbol)));
+            players.add(new Player(i++, name, new Symbol(symbol)));
         }
 
         List<WinningStrategy> winningStrategies = Arrays.asList(new RowWinningStrategy(), new ColWinningStrategy(), new DiagonalWinningStrategy());

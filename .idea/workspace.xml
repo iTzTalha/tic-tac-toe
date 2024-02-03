@@ -194,7 +194,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706961426604</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add validations">
+      <option name="closed" value="true" />
+      <created>1706963791723</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706963791723</updated>
+    </task>
+    <task id="LOCAL-00014" summary="workspace.xml modified">
+      <option name="closed" value="true" />
+      <created>1706963807465</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706963807465</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +233,7 @@
     <MESSAGE value="add client" />
     <MESSAGE value="simple working game" />
     <MESSAGE value="uiDesigner.xml modified" />
+    <MESSAGE value="add validations" />
     <MESSAGE value="workspace.xml modified" />
     <option name="LAST_COMMIT_MESSAGE" value="workspace.xml modified" />
   </component>
