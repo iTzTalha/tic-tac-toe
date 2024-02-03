@@ -8,10 +8,7 @@ import strategies.winningStrategies.DiagonalWinningStrategy;
 import strategies.winningStrategies.RowWinningStrategy;
 import strategies.winningStrategies.WinningStrategy;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Client {
     public static void main(String[] args) {
@@ -26,13 +23,26 @@ public class Client {
         System.out.print("Enter Total Players - ");
         int totalPlayers = scanner.nextInt();
 
+        while (totalPlayers < 0 || totalPlayers > dimensions) {
+            System.out.println("Total Players should be > 0 and <= Grid size.");
+            System.out.print("Enter Total Players - ");
+            totalPlayers = scanner.nextInt();
+        }
+
+        int i = 0;
+        Set<Character> set = new HashSet<>();
         List<Player> players = new ArrayList<>();
-        for (int i = 0; i < totalPlayers; i++) {
+        while (i++ < totalPlayers) {
             scanner.nextLine();
             System.out.print("Enter Player " + (i + 1) + " name - ");
             String name = scanner.nextLine();
             System.out.print("Enter Player " + (i + 1) + " symbol - ");
             char symbol = scanner.next().charAt(0);
+            while (!set.add(symbol)) {
+                System.out.println("Symbol " + symbol + " has already been selected by other Player.");
+                System.out.print("Enter Player " + (i + 1) + " symbol - ");
+                symbol = scanner.next().charAt(0);
+            }
             players.add(new Player(i, name, new Symbol(symbol)));
         }
 
