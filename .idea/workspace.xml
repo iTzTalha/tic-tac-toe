@@ -5,19 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd298bf-3075-4fd7-ae03-c1aa1f5f053b" name="Changes" comment="workspace.xml modified">
-      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/CellState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/DuplicateSymbolException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/InvalidPlayerCountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Symbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/winningStrategies/ColWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/winningStrategies/DiagonalWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/winningStrategies/RowWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/winningStrategies/WinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/DuplicateSymbolException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/DuplicateSymbolException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/InvalidPlayerCountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/InvalidPlayerCountException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Symbol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,12 +40,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "iTzTalha"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;iTzTalha&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -52,9 +57,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2bl2bEVHgChBYfQZoWxIeQB2Duz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -63,13 +68,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="tictactoe" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -110,7 +132,55 @@
       <option name="project" value="LOCAL" />
       <updated>1706776496678</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add models">
+      <option name="closed" value="true" />
+      <created>1706786924360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706786924360</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add enums">
+      <option name="closed" value="true" />
+      <created>1706786947785</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706786947785</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add exceptions">
+      <option name="closed" value="true" />
+      <created>1706786965581</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706786965581</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add game controller">
+      <option name="closed" value="true" />
+      <created>1706786998204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706786998204</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add client">
+      <option name="closed" value="true" />
+      <created>1706787009604</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706787009604</updated>
+    </task>
+    <task id="LOCAL-00009" summary="workspace.xml modified">
+      <option name="closed" value="true" />
+      <created>1706787169656</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706787169656</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +196,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project created" />
+    <MESSAGE value="add models" />
+    <MESSAGE value="add enums" />
+    <MESSAGE value="add exceptions" />
+    <MESSAGE value="add game controller" />
+    <MESSAGE value="add client" />
     <MESSAGE value="workspace.xml modified" />
     <option name="LAST_COMMIT_MESSAGE" value="workspace.xml modified" />
   </component>
