@@ -3,26 +3,26 @@ package models;
 import enums.CellState;
 
 public class Cell {
-    private int row;
-    private int col;
+    private final int row;
+    private final int col;
     private CellState cellState;
     private Player player;
 
-    public int getRow() {
-        return row;
+    public Cell(int row, int col) {
+        this.row = row;
+        this.col = col;
+        cellState = CellState.EMPTY;
+        player = null;
     }
 
-    public void setRow(int row) {
-        this.row = row;
+    public int getRow() {
+        return row;
     }
 
     public int getCol() {
         return col;
     }
 
-    public void setCol(int col) {
-        this.col = col;
-    }
 
     public CellState getCellState() {
         return cellState;
@@ -38,5 +38,15 @@ public class Cell {
 
     public void setPlayer(Player player) {
         this.player = player;
+    }
+
+    public void display(int size) {
+        if (col == 0) {
+            System.out.print("|" + (player == null ? " - " : " " + player.getSymbol().getSymbol() + " "));
+        } else if (col == size - 1) {
+            System.out.print((player == null ? " - " : " " + player.getSymbol().getSymbol() + " ") + "|");
+        } else {
+            System.out.print("|" + (player == null ? " - " : " " + player.getSymbol().getSymbol() + " ") + "|");
+        }
     }
 }

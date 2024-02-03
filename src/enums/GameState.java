@@ -1,6 +1,7 @@
 package enums;
 
 public enum GameState {
-    FINISHED,
-    IN_PROGRESS
+    WON,
+    IN_PROGRESS,
+    DRAW
 }
