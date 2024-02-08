@@ -1,15 +1,15 @@
 # Tic-Tac-Toe Terminal Game
-## Description:
+## Description
 This Tic-Tac-Toe game is implemented in Java and runs in the terminal. It offers a classic yet customizable gaming experience, allowing players to enjoy the age-old game with a modern twist. The game grid can be configured to any size, making it suitable for various playstyles and challenges.
 
-## Key Features:
+## Key Features
 
 * **Customizable Grid Size:** The game grid can be configured to any size, allowing players to choose from traditional 3x3 grids to larger grids for added complexity.
 * **Flexible Number of Players:** Players can enjoy the game with any number of participants, making it suitable for solo play, head-to-head matches, or group gaming sessions.
 * **User-Friendly Interface:** The game interface is designed to be intuitive and easy to use, providing players with a seamless gaming experience in the terminal environment.
 * **Modern Design Principles:** The game is developed using clean code principles and design patterns, ensuring readability, maintainability, and scalability of the codebase.
 
-## How to Play:
+## How to Play
 
 * **Set Up:** Choose the desired grid size and number of players before starting the game.
 * **Gameplay:** Players take turns placing their marks (X or O) on the grid, aiming to create a line of their marks horizontally, vertically, or diagonally.
