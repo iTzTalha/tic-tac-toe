@@ -13,8 +13,8 @@ This Tic-Tac-Toe game is implemented in Java and runs in the terminal. It offers
 
 * **Set Up:** Choose the desired grid size and number of players before starting the game.
 * **Gameplay:** Players take turns placing their marks (X or O) on the grid, aiming to create a line of their marks horizontally, vertically, or diagonally.
-* Winning Condition: The first player to form a complete line of their marks wins the game. If the grid is filled before any player achieves this, the game ends in a draw.
-* End Game: The game ends when a player wins or when there are no more empty spaces left on the grid.
+* **Winning Condition:** The first player to form a complete line of their marks wins the game. If the grid is filled before any player achieves this, the game ends in a draw.
+* **End Game:** The game ends when a player wins or when there are no more empty spaces left on the grid.
 
 Enjoy the Game!
 
